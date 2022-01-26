@@ -1,0 +1,58 @@
+# file, also in the branding directory.
+---
+componentName:  default
+
+
+
+welcomeStyleCalamares:   false
+
+
+welcomeExpandingLogo:   true
+
+windowExpanding:    normal
+
+
+windowPlacement: center
+
+
+sidebar: widget
+
+
+navigation: widget
+
+
+strings:
+    productName:         ADK-Linux
+    shortProductName:    ADK
+    version:             2022.30.1
+    shortVersion:        2022.30.1
+    versionedName:       ADK
+    shortVersionedName:  ADK
+    bootloaderEntryName: Generic
+
+
+images:
+    # productBanner:       "banner.png"
+    productIcon:         "adk-smaller.png"
+    productLogo:         "adk-smaller.png"
+    # productWallpaper:    "wallpaper.png"
+    productWelcome:      "1-welcometo.png"
+
+
+style:
+   sidebarBackground:    "#000000"
+   sidebarText:          "#EFEFEF"
+   sidebarTextSelect:    "#000000"
+   sidebarTextHighlight: "#EFEFEF"
+
+
+slideshow:               "show.qml"
+
+
+slideshowAPI: 2
+
+
+
+uploadServer :
+    type :    "fiche"
+    url :     "http://termbin.com:9999"
